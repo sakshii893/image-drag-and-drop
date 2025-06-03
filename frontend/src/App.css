@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  position: relative;
+}
+
+.drop-area input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.drop-area img {
+  max-width: 100%;
+  height: auto;
+}
+
+.controls {
+  margin: 20px;
+}
+
+.controls select,
+.controls button {
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 20px;
+}
